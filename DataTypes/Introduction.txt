@@ -1,0 +1,26 @@
+Python supports various built-in data types that are used to define the type of data stored in a variable. These data types can be broadly categorized as follows:
+
+Numeric Types:
+      int: Represents integer values (e.g., 10, -5, 0).
+      float: Represents floating-point numbers (e.g., 3.14, -0.99).
+      complex: Represents complex numbers (e.g., 3 + 4j).
+Sequence Types:
+      str: Represents strings, which are sequences of characters (e.g., "hello", 'world').
+      list: Represents ordered, mutable sequences of items (e.g., \[1, 2, 3], \['a', 'b', 'c']).
+      tuple: Represents ordered, immutable sequences of items (e.g., (1, 2, 3), ('a', 'b', 'c')).
+      range: Represents a sequence of numbers, often used for looping.
+Set Types:
+      set: Represents an unordered collection of unique elements.
+      frozenset: Represents an immutable version of a set.
+Mapping Type:
+      dict: Represents a collection of key-value pairs (e.g., {'name': 'John', 'age': 30}).
+      Boolean Type:
+      bool: Represents boolean values, either True or False.
+Binary Types:
+      bytes: Represents immutable sequences of bytes.
+      bytearray: Represents mutable sequences of bytes.
+      memoryview: Provides a memory view of an object without copying.
+None Type:
+      NoneType: Represents the absence of a value, denoted by None.
+
+NOTE: Python is dynamically typed, which means you don't need to explicitly declare the data type of a variable. The interpreter infers the data type based on the assigned value.
